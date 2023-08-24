@@ -9,7 +9,6 @@ from Pages.HomeScreen import HomeScreen
 from Pages.LoginPage import LoginPage
 from Pages.PaymentPage import PaymentPage
 from Pages.ReviewOrderPage import ReviewOrderPage
-from TestCases.BaseTest import BaseTest
 from Utilities.LogUtil import Logger
 from Utilities.constants import constants
 

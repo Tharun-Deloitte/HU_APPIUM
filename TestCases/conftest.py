@@ -18,7 +18,7 @@ def appium_driver(request):
     desired_caps = {}
     desired_caps['platformName'] = 'Android'
     desired_caps['deviceName'] = 'ARapp'
-    desired_caps['app'] = 'C:\\Users\\naratreddy\\Downloads\\Android-MyDemoAppRN.1.3.0.build-244.apk'
+    desired_caps['app'] = 'C://Users//naratreddy//Desktop//MainAssignment//HU_APPIUM//App//Android-MyDemoAppRN.1.3.0.build-244.apk'
     desired_caps['automationName'] = 'UiAutomator2'
     # desired_caps['noReset'] = True
     driver = webdriver.Remote('http://127.0.0.1:4723', desired_caps)
